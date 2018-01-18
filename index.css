@@ -1,0 +1,31 @@
+body {
+  background-color: #672244;
+  margin: 0;
+}
+
+.c-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1260px;
+  padding: 0.5vw;
+}
+
+@media (min-width: 741px) {
+  .c-panels {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .c-panels__item {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+.c-panels__image {
+  max-width: 100%;
+  vertical-align: middle;
+}
